@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card project</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/2.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .profile-box{
+        background: tomato;
+        text-align: center;
+        padding: 40px 90px;
+        color: #fff;
+        position: relative;
+        border-radius: 20px;
+    }
+    .menu-icon{
+        width: 25px;
+        position: absolute;
+        left: 40px;
+        top: 40px;
+    }
+    .setting-icon{
+        width: 25px;
+        position:absolute;
+        top: 40px;
+        right: 40px;
+    }
+    .profile-icon{
+        width: 130px;
+        border-radius: 50%;
+background: #fff;
+padding: 6px;
+margin-top: 35px;
+        
+    }
+    .fb{
+        width: 35px;
+    }
+    .linkdin{
+        width: 35px;
+    }
+    .profile-bottom{
+        background: #fff;
+        color: #999;
+        padding: 60px 0;
+        margin-right: -90px;
+        margin-left: -90px;
+        margin-bottom: -40px;
+        border-radius: 20px;
+        margin-top: -10px;
+        
+    }
+    .profile-bottom img{
+        margin-top: 15px;
+        width: 15px;
+        cursor: pointer;
+    }
+    .profile-box button{
+background: #fff;
+color: #ff574a;
+border: none;
+outline: none;
+box-shadow: 0 5px 10px rgba(244, 67, 54, .5);
+padding: 15px 60px;
+cursor: pointer;
+border-radius: 30px;
+margin-bottom: -50px;
+font-weight: 600;
+font-size: 16px;
+    }
+    .rpofile-box h1{
+        font-size: 22px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+    .social-media img{
+        width: 20px;
+        margin: 30px 5px;
+        cursor: pointer;
+    }
+
+</style>
+<body>
+    <div class="container">
+<div class="profile-box">
+    <img src="images/5.jpg" class="menu-icon">
+    <img src="images/7.jpg" class="setting-icon">
+    <img src="images/6.jpg" class="profile-icon">
+    <h1>Amit gupta</h1>
+    <p>Software Developer at Amazon,Ex Ti Infotech, Ericsson</p>
+    <div class="social-media">
+        <img src="images/4.jpg">
+        <img src="images/8.jpg">
+        <img src="images/fb.jpg" class="fb">
+        <img src="images/linkdin.jpg" class="linkdin">
+    </div>
+    <button type="button">Follow</button>
+    <div class="profile-bottom">
+        <p>Learn more about my profile</p>
+        <img src="images/1.jpg">
+    </div>
+</div>
+    </div>
+    
+</body>
+</html>
